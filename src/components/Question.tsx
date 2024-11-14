@@ -5,6 +5,9 @@ import type { QuizQuestion } from '../types/quiz';
 interface QuestionProps {
   question: QuizQuestion;
 }
+const getOptionLetter = (index: number) => {
+  return String.fromCharCode(65 + index);
+}
 
 export const Question: React.FC<QuestionProps> = ({ question }) => {
   return (
@@ -23,12 +26,12 @@ export const Question: React.FC<QuestionProps> = ({ question }) => {
 
       {question.type === 'multiple' ? (
         <div className="grid grid-cols-2 gap-6">
-          {question.options?.map((option) => (
+          {question.options?.map((option, index) => (
             <div
               key={option}
               className="p-6 text-xl text-center rounded-lg bg-white border-2 border-gray-200 shadow-sm"
             >
-              {option}
+              {getOptionLetter(index)}) {option}
             </div>
           ))}
         </div>

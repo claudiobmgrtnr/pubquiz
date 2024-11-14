@@ -161,7 +161,7 @@
       "question": "Which celebrity has the most followers on Instagram?",
       "type": "multiple",
       "options": ["Cristiano Ronaldo", "Ariane Grande", "Kylie Jenner", "Leo Messi"],
-      "correctAnswer": "Eveline Widmer-Schlumpf",
+      "correctAnswer": "Cristiano Ronaldo",
       "media": {
         "type": "image",
         "aspect": "1:1",
