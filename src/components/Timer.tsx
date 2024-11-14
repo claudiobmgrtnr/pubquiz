@@ -20,7 +20,7 @@ export const Timer: React.FC<TimerProps> = ({ timeRemaining, isPaused, onToggleP
       </div>
       <button
         onClick={onTogglePause}
-        className="p-2 rounded-lg bg-gray-800 text-white hover:bg-gray-700 transition-colors"
+        className="p-2 rounded-lg bg-gray-900 text-white hover:bg-gray-700 transition-colors"
         aria-label={isPaused ? 'Resume timer' : 'Pause timer'}
       >
         {isPaused ? (
