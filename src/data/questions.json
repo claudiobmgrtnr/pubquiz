@@ -27,7 +27,7 @@
       "question": "In which movie did Dwyane “The Rock” Johnson land his first lead role?",
       "type": "multiple",
       "options": ["Terminator 3", "Riddick (1)", "Welcome to the Jungle", "The Mummy Returns"],
-      "correctAnswer": "The Mummy Returns",
+      "correctAnswer": "Welcome to the Junge",
       "media": {
         "type": "image",
         "url": "src/assets/therock.webp",
